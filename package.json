@@ -1,0 +1,28 @@
+{
+  "name": "git-practice-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davio23/git-practice-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davio23/git-practice-2/issues"
+  },
+  "homepage": "https://github.com/davio23/git-practice-2#readme",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "glob-run": "^0.1.6",
+    "onchange": "^3.2.1"
+  }
+}
