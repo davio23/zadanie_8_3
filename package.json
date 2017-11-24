@@ -27,9 +27,10 @@
     "onchange": "^3.2.1"
   }
   {
-  "extends": "../.jshintrc",
-  "globals": {
-   "test": false,
-   "assert": false
+  "shadow": false,
+  "overrides": {
+  "lib/*-test.js": {
+  "expr": true
+  }
   }
 }
