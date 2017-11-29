@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "test",
     "npm ./test/.jshintrc"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "test":"js/*.js"
+    "test: js:" : "npm run test"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,6 @@
   "overrides": {
   "lib/*-test.js": {
   "expr": true
-  }
+  },
   }
 }
